@@ -1,0 +1,89 @@
+body{
+    background-image: url(citrus-pattern-fruit-aesthetic-jpg-kv0q8y6p2m480g8y.jpg);
+}
+.nav{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 2px;
+    width: 100%;
+    height: 50px;
+    background-color:rgba(255, 228, 196, 0.598);
+    position: sticky;
+    z-index: 2;
+}
+.nav li{
+    list-style-type: none;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+} 
+.menu{
+    width: 100%;
+    height: 800px;
+    background-color: rgba(255, 228, 196, 0.511);
+    
+}
+.menu1{
+    width: 60%;
+    height: 800px;
+   
+    background-color: rgba(70, 64, 64, 0.285);
+    padding-top: 10px; 
+ 
+}
+.menu1  li{
+    list-style-type: none;
+    padding-top: 10px;
+}
+.menu1 a{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+}
+.menu1 li:hover{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(42, 41, 41, 0.284);
+}
+.menu2{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 228, 196, 0.432);
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    gap: 5px;
+    padding-left: 0px;
+}
+.break{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2,45%);
+    gap: 5%;
+}
+.idli{
+    width: 100%;
+    height: 200px;
+     background-color: rgba(42, 41, 41, 0.284);
+    display: flex;
+}
+.idli img{
+    width: 150px;
+    height: 150px;
+}
+.dosa{
+    width: 100%;
+    height: 200px;
+     background-color: rgba(42, 41, 41, 0.284);
+    display: flex;
+}
+.dosa img{
+    width: 150px;
+    height: 150px;
+}
