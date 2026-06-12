@@ -46,11 +46,17 @@
     height: 700px;
     background-color: rgba(144, 118, 84, 0.452);
     position: absolute;
+    
 }
-.logo h1{
-    font-size:xx-large;
-    font-weight: 800;
-    color: white;
-    padding-top: 300px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+.logo img{
+    width: 500px;
+    height: 300px;
+    padding-top: 200px;
 }
+.imgs{
+    width: 500px;
+    height: 500px;
+    display: inline;
+ }
+
+
